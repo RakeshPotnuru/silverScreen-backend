@@ -1,0 +1,9 @@
+{
+    "env": {
+        "DB_USER": "admin-Rakesh",
+        "DB_PASSWORD": "XYDhgXjfB9o7fEE5",
+        "DB_NAME": "silverScreenDB",
+        "TMDB_API_KEY": "59beb90a57896ff1dd8fc4144a294c4b",
+        "JWT_KEY": "YkY*ZKK&RDn8t3^MH}:XE"
+    }
+}
