@@ -5,7 +5,7 @@ const HttpError = require("../models/http-error");
 const TMDB_API_KEY = process.env.TMDB_API_KEY;
 
 async function searchMovie(title) {
-    const url = `https://api.themoviedb.org/3/search/movie/multi?api_key=${TMDB_API_KEY}&language=en-US&include_adult=false&query=${title}`
+    const url = `https://api.themoviedb.org/3/search/multi?api_key=${TMDB_API_KEY}&language=en-US&include_adult=false&query=${title}`
 
     const response = await axios.get(url);
 
